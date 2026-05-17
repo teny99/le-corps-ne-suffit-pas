@@ -14,5 +14,8 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "latest"
   }
 }
