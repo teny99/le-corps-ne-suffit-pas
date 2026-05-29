@@ -3,7 +3,7 @@ export default function HomePage() {
     <main className="home-page">
       <header className="top-banner">
         <img
-          src="/images/bandeau.jpg"
+          src="/bandeau.jpg"
           alt="Bandeau du site Le corps ne suffit pas"
           className="banner-image"
         />
@@ -36,7 +36,7 @@ export default function HomePage() {
       <section className="media-section">
         <a href="/parcours" className="image-link">
           <img
-            src="/images/image-parcours.jpg"
+            src="/image-parcours.jpg"
             alt="Accéder au parcours"
             className="clickable-image"
           />
@@ -53,7 +53,7 @@ export default function HomePage() {
 
         <a href="/page-3" className="image-link">
           <img
-            src="/images/image-page-3.jpg"
+            src="/image-page-3.jpg"
             alt="Accéder à la page 3"
             className="clickable-image"
           />
