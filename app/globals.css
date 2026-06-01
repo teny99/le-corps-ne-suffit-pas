@@ -35,9 +35,8 @@ a {
 /* HEADER */
 
 .site-header {
-  width: min(1200px, 92%);
-  margin: 0 auto;
-  padding: 24px 0 18px;
+  width: 100%;
+  padding: 24px 36px 18px;
   display: grid;
   grid-template-columns: 130px 1fr 130px;
   align-items: center;
@@ -84,11 +83,9 @@ a {
 
 
 /* Introduction */
-
 .intro-section {
-  width: min(1200px, 92%);
-  margin: 0 auto;
-  padding: 80px 0 60px;
+  width: 100%;
+  padding: 80px 36px 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
@@ -112,9 +109,8 @@ a {
 /* Images + short */
 
 .media-section {
-  width: min(1200px, 92%);
-  margin: 0 auto;
-  padding: 20px 0 50px;
+  width: 100%;
+  padding: 20px 36px 50px;
   display: grid;
   grid-template-columns: 1fr minmax(220px, 320px) 1fr;
   gap: 28px;
@@ -162,9 +158,8 @@ a {
 /* Lien page 4 */
 
 .relativity-link-section {
-  width: min(800px, 92%);
-  margin: 0 auto;
-  padding: 10px 0 90px;
+  width: 100%;
+  padding: 10px 36px 90px;
   text-align: center;
 }
 
@@ -204,7 +199,7 @@ a {
   .site-header {
     grid-template-columns: 80px 1fr 80px;
     gap: 12px;
-    padding: 18px 0 12px;
+    padding: 18px 18px 12px;
   }
 
   .header-link {
@@ -218,11 +213,12 @@ a {
   .intro-section {
     grid-template-columns: 1fr;
     gap: 28px;
-    padding: 56px 0 36px;
+    padding: 56px 18px 36px;
   }
 
   .media-section {
     grid-template-columns: 1fr;
+	padding: 20px 18px 50px;
   }
 
   .youtube-short {
