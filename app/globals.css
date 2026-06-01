@@ -32,47 +32,56 @@ a {
   background: var(--black);
   color: var(--text-white);
 }
+/* HEADER */
 
-.top-banner {
-  position: relative;
+.site-header {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+  padding: 24px 0 18px;
+  display: grid;
+  grid-template-columns: 130px 1fr 130px;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.header-link:first-child {
+  text-align: left;
+}
+
+.header-link:last-child {
+  text-align: right;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.header-banner {
   width: 100%;
-  height: 120px;
+  max-width: 720px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
-  background: #111111;
 }
 
 .banner-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 
-/* Navigation posée sur le bandeau */
-
-.banner-nav {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 28px 42px;
-  pointer-events: none;
-}
-
-.nav-link {
-  pointer-events: auto;
-  color: white;
-  text-decoration: none;
-  font-size: 1.15rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.75);
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-}
 
 /* Introduction */
 
@@ -153,7 +162,7 @@ a {
 /* Lien page 4 */
 
 .relativity-link-section {
-  width: min(1200px, 92%);
+  width: min(800px, 92%);
   margin: 0 auto;
   padding: 10px 0 90px;
   text-align: center;
@@ -192,12 +201,18 @@ a {
 /* RESPONSIVE */
 
 @media (max-width: 900px) {
-  .top-banner {
-    height: 90px;
+  .site-header {
+    grid-template-columns: 80px 1fr 80px;
+    gap: 12px;
+    padding: 18px 0 12px;
   }
 
-  .banner-nav {
-    padding: 22px;
+  .header-link {
+    font-size: 0.95rem;
+  }
+
+  .header-banner {
+    height: 56px;
   }
 
   .intro-section {
