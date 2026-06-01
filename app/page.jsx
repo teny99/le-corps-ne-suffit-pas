@@ -8,7 +8,7 @@ export default function HomePage() {
 
          <div className="header-banner">
           <img
-            src="/images/bandeau.jpg"
+            src="/bandeau.jpg"
             alt="Bandeau du site Le corps ne suffit pas"
             className="banner-image"
           />
