@@ -1,23 +1,25 @@
 export default function HomePage() {
   return (
     <main className="home-page">
-      <header className="top-banner">
-        <img
-          src="/bandeau.jpg"
-          alt="Bandeau du site Le corps ne suffit pas"
-          className="banner-image"
-        />
+      <header className="site-header">
+        <a href="/" className="header-link">
+          Accueil
+        </a>
 
-        <nav className="banner-nav">
-          <a href="/" className="nav-link nav-left">
-            Accueil
-          </a>
+         <div className="header-banner">
+          <img
+            src="/images/bandeau.jpg"
+            alt="Bandeau du site Le corps ne suffit pas"
+            className="banner-image"
+          />
+         </div>
 
-          <a href="/parcours" className="nav-link nav-right">
+         <a href="/parcours" className="header-link">
             Parcours
-          </a>
-        </nav>
+         </a>
       </header>
+
+
 
       <section className="intro-section">
         <div className="intro-title">
