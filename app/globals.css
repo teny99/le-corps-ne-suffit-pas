@@ -37,7 +37,7 @@ a {
   width: 100%;
   padding: 22px 36px 18px;
   display: grid;
-  grid-template-columns: 120px minmax(600px, 1500px) 120px;
+  grid-template-columns: 120px minmax(400px, 900px) 120px;
   align-items: center;
   justify-content: center;
   gap: 21px;
