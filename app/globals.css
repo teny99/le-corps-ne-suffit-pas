@@ -40,7 +40,7 @@ a {
   grid-template-columns: 120px minmax(400px, 900px) 120px;
   align-items: center;
   justify-content: center;
-  gap: 21px;
+  gap: 28px;
 }
 
 .header-link {
