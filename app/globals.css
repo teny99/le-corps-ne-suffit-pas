@@ -64,7 +64,7 @@ a {
 }
 
 .header-banner {
-  width: 100%;
+  width: 120%;
   height: 110px;
   display: flex;
   align-items: center;
@@ -91,7 +91,7 @@ a {
 
 .intro-title h1 {
   margin: 0;
-  font-size: clamp(3.2rem, 8vw, 7rem);
+  font-size: clamp(2.6rem, 6vw, 5.5rem);
   line-height: 0.95;
   letter-spacing: -0.06em;
 }
@@ -99,7 +99,7 @@ a {
 .intro-text p {
   margin: 0;
   color: var(--muted-white);
-  font-size: clamp(1.3rem, 2.2vw, 2rem);
+  font-size: clamp(1rem, 2vw, 1.8rem);
   line-height: 1.45;
 }
 
