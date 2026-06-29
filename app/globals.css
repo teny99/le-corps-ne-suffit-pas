@@ -110,7 +110,7 @@ a {
   padding: 20px 36px 50px;
   display: grid;
   grid-template-columns: 280px 320px 280px;
-  gap: 50px;
+  gap: 80px;
   align-items: center;
   justify-content: center;
 }
