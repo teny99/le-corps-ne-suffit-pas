@@ -60,7 +60,13 @@ export default function HomePage() {
             className="clickable-image"
           />
         </a>
-     
+     </section>
+
+      <section className="relativity-link-section">
+        <a href="/relativite" className="relativity-link">
+          Le jeu de la relativité.
+        </a>
+      </section>
     </main>
   );
 }
