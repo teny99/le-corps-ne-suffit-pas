@@ -154,7 +154,25 @@ a {
   display: block;
 }
 
+/* Lien page 4 */
 
+.relativity-link-section {
+  width: 100%;
+  padding: 10px 36px 90px;
+  text-align: center;
+}
+
+.relativity-link {
+  color: white;
+  font-size: clamp(1.6rem, 4vw, 3.5rem);
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: -0.04em;
+}
+
+.relativity-link:hover {
+  text-decoration: underline;
+}
 
 /* PAGES VIDES */
 
