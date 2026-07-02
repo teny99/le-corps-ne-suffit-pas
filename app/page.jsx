@@ -62,11 +62,7 @@ export default function HomePage() {
         </a>
       </section>
 
-      <section className="relativity-link-section">
-        <a href="/relativite" className="relativity-link">
-          Le jeu de la relativité.
-        </a>
-      </section>
+      
     </main>
   );
 }
